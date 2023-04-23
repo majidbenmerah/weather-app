@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&display=swap');
+
+
+html, body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right #6DD5FA, #71c6ff);
+    background: linear-gradient(to right, #6DD5FA, #71c6ff);
+    min-width: 400px;
+}
+  
+  #ville {
+    text-transform: capitalize;
+  }
+  
+  #temperature {
+    font-size: 4em;
+  }
+  
+  #changer {
+    background: rgba(178, 223, 251, .3);
+    cursor: pointer;
+  }
+
+  header {
+    padding: 30px;
+    margin-left: 20px;
+  }
+
+header h1 {
+  color: #ffffff;
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+.div-search {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; */
+  text-align: center;
+}
+
+.search {
+  width: 80%;
+  border-radius: 15px;
+  border: none;
+  transition: all .3s;
+  padding: 5px;
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+.search:focus {
+  outline: none;
+  padding: 10px;
+}
+
+#chercher {
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.container {
+  background: #ffffff;
+  border-radius: 15px;
+  margin-top: 15px;
+  /* height: 50vh; */
+}
+
+.container h2 {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 8em;
+  font-weight: 400;
+  /* padding-top: 20px; */
+  color: #2980B9;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.info p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+#humidite, #vent, #pression {
+  border-bottom: 3px solid #2980B9;
+}
+
+span {
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: 'Exo 2', sans-serif;
+  color: #2980B9;
+}
+
+
+footer {
+  padding: 75px 0 25px 50px;
+  color: #ffffff;
+
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+}
